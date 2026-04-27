@@ -20,6 +20,10 @@ function App() {
         {activeTab === 'imf' && <IMFViewer />}
       </main>
 
+      <div className="absolute top-6 left-1/2 z-50 -translate-x-1/2 rounded-full border border-science-700/70 bg-science-900/90 px-5 py-2 text-sm font-bold text-slate-200 shadow-2xl backdrop-blur">
+        By Faisal and Khaled
+      </div>
+
       {/* Floating Nav Dock */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-50">
         <div className="glass-card p-2 flex gap-2 rounded-full items-center shadow-2xl bg-science-900/90 border-science-700">
